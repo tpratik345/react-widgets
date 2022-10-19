@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import { Route, Link, BrowserRouter, Routes } from "react-router-dom";
+import { Route, BrowserRouter, Routes } from "react-router-dom";
 import Accordion from "./components/Accordion";
 import Search from "./components/Search";
 import Dropdown from "./components/Dropdown";

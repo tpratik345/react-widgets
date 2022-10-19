@@ -29,6 +29,7 @@ function Search() {
             
             return () => { clearTimeout(timeoutId); };
         }
+        // eslint-disable-next-line
     }, [term]);
 
     const renderedRes = results.map( res => {

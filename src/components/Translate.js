@@ -28,7 +28,7 @@ const Translate = () => {
     
     const renameKeys = (data)  => {
         const list = [];
-        data.map( ({language, name}) => {
+        data.forEach( ({language, name}) => {
             const obj = {}
             if(!obj[name]) {
                 obj['label'] = name;
